@@ -13,7 +13,7 @@ function Description({movies}) {
     <div>
       <h1>{movie.title}</h1>
       <p className='description'>{movie.description}</p>
-      <video controls> 
+      <video className='description-video' controls> 
         <source src={movie.movieTrailer} type=''>
         </source> 
         </video>
